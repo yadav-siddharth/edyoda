@@ -1,0 +1,126 @@
+.service-head{
+          color: #FFF;
+          font-family: 'Raleway',sans-serif;
+          font-size: 2.5rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 125%; /* 70px */
+          letter-spacing: -0.56px;
+          margin-top: 10rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.service-head2{
+          color: #FFF;
+          font-size: 2.2rem;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          font-family: 'Raleway', sans-serif;
+}
+
+.service-head2 h1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Raleway', sans-serif;
+}
+
+.service h2{
+          font-family: 'Raleway', sans-serif;
+}
+
+
+.cash{
+          color: #FFF;
+          font-family: 'Raleway', sans-serif;
+          font-size: 2rem;
+          font-weight: 600;
+          line-height: 125%; /* 70px */
+          letter-spacing: -0.56px;
+          display: flex;
+          align-items: center;
+}
+
+.service-discount{
+          display: flex;
+          align-items: center;
+          
+}
+
+.service-discount span{
+          color: #FFF;
+          font-family:  'Poppins', sans-serif;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 600;
+}
+
+.list{
+          margin: auto;
+}
+
+del {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 38px;
+          font-family: 'Raleway', sans-serif;
+}
+
+.service-list{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1rem;
+         
+}
+
+.service-list h1{
+          font-size: 1.8rem;
+}
+
+.book-icon{
+          margin-right: 20px;
+}
+
+.service-list h2{
+          color: #FFF;
+          font-size: 1.8rem;
+          font-weight: 400;
+          margin-left: 10px;
+          display: flex;
+          align-items: center;
+}
+
+@media screen and (max-width:640px) {
+          .service-head{
+                    font-size: 1.7rem;
+                    margin-left: 10px;
+          }
+          .service-head2{
+                    font-size: 1.5rem;
+                    margin-left: 10px;
+          }
+          .cash{
+                    font-size: 1rem;
+          }
+          .service-discount span{
+                    font-size: 1.5rem;
+          }
+          .service-list h1 {
+                    font-size: 1.5rem;
+          }
+          .service-list h2{
+                    font-size: 1.2rem;
+          }
+          .book-icon{
+                    width: 40px;
+                    height: 40px;
+          }
+          del{
+                    font-size: 2rem;
+          }
+}

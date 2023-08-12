@@ -1,0 +1,33 @@
+body{
+          background-image: linear-gradient(to right, #010102, #080812, #0D1932, #0C1830, #0d1831);
+}
+.hero{
+          /* width: 1519px;
+          height: 1028px; */
+          height: 100vh;
+          flex-shrink: 0;
+          
+          display: flex;
+          flex-wrap: wrap;
+          gap: 70px;
+         justify-content: center;
+          
+}
+
+.form-section{
+          width: 550px;
+          height: 600px;
+          background-color: #ffff;
+          margin-top: 8rem;
+          border-radius: 12px;
+}
+
+@media screen and (max-width:640px){
+          /* .hero{
+                    width: 400px;
+          } */
+
+          .form{
+                    width: 350px;
+          }
+}
